@@ -22,6 +22,24 @@ The application emphasizes security using JWT (JSON Web Tokens), OAuth2, and Ope
 - **Add New Books**: Add new books to the library.
 - **Respond to User Questions**: Answer user queries.
 
+## The appearance of the Home page
+
+<p align="center">
+  <img src="image/pocetna.png" alt="Home image">
+</p>
+
+## The appearance of the login page
+
+<p align="center">
+  <img src="image/prijava.png" alt="Login Image">
+</p>
+
+## The appearance of the Search page
+
+<p align="center">
+  <img src="image/serach.png" alt="Search Image">
+</p>
+
 ## Technologies
 
 - **Backend**: SpringBoot, Java, Maven, MySQL
