@@ -1,0 +1,392 @@
+:root{
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+ 
+}
+
+* {
+    font-family: 'Merienda', sans-serif;
+}
+
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./Images/PublicImages/pexels-pixabay-261821.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 25em !important;
+   
+    
+}
+
+.aa {
+ 
+  text-decoration: none;
+  text-decoration-color: white;
+  transition: 0.4s;
+}
+
+.aa:hover {
+ 
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+  transition: 0.4s;
+}
+
+
+
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.d {
+  margin-left: 20px;
+}
+
+.ds {
+  margin-left: 18px;
+}
+
+.main-color {
+background-color: #4fa5cd ;
+}
+
+.nav-color {
+    background-color:#7E5C3B;
+}
+
+.btnn {
+    font-family: 'Merienda', sans-serif;
+   
+    margin-left: 15px;
+    transition: .3s;
+}
+
+.searchb {
+    background-color: rgb(36, 128, 36);
+    color: white;
+    transition: 0.4s;
+}
+
+.searchb:hover {
+    background-color: rgb(0, 150, 0);
+    transition: 0.4s;
+}
+
+.btnn:hover {
+   
+  
+    transition: .3s;
+}
+
+.pag {
+    background-color:#caa682;
+    transition: 0.5s;
+}
+
+.pacol {
+    color: white;
+} 
+
+.pag:hover {
+    background-color: #926045;
+    color: white;
+    transition: 0.5s;
+}
+
+#active {
+    background-color: #848484;
+}
+
+.bok {
+    background-color: #d2c1ae;
+}
+
+.pag:active {
+    background-color: #4fa5cd ;
+}
+
+.search {
+ transition: .7s;
+}
+
+.search:hover {
+    box-shadow: 5px 5px 5px 5px rgba(157, 157, 157, 0.5);
+    transition: .5s;
+
+}
+
+
+
+.color {
+    background-color: #c0c0c0;
+}
+
+.col-image-left {
+    background-image: url("./Images/BooksImages/6cp5X4yEi.png");
+    height: 22em !important;
+    margin-left: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+    
+}
+
+
+
+
+.col-image-right {
+    background-image: url("./Images/BooksImages/book-transparent-background-22.png");
+    height: 35em !important;
+    width: 30rem;
+   
+    background-size: cover;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+   
+}
+.col-image-right2 {
+    background-image: url("./Images/BooksImages/hero.jpg");
+    height: 30em !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 70px;
+   
+}
+
+.lost-image {
+    background-image: url("./Images/BooksImages/pngwing.com\ \(1\).png");
+    height: 25em !important;
+    width: "720";
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+.book-div {
+    width: 480px;
+    height: 384px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
+
+ .service {
+    
+    transition: transform 0.5s ease;
+ }
+
+ .radius {
+    border-radius: 10px;
+ }
+
+ .service:hover {
+    transform: scale(1.1) translateY(12px);
+}
+
+.line {
+    
+    transition: .8s;
+}
+
+.line:hover {
+    box-shadow: 5px 5px 5px 5px rgba(157, 157, 157, 0.5);
+    transition: .4s;
+  
+}
+
+.bg {
+    --tw-gradient-to: #7E5C3B;
+    --tw-gradient-from: #7E5C3B ;
+    --tw-gradient-to: rgba(233, 106, 2, 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+      background-image: linear-gradient(to right, var(--tw-gradient-stops));
+      border: none;
+}
+
+.text-author {
+    color: #7E5C3B;
+}
+
+.star {
+    color: #c2c20b;
+}
+
+
+
+/* .flip:hover {
+    transform: rotateY(30deg);
+    transition: transform 0.4s ;
+   
+} */
+
+
+
+   .buttonn {
+    border-radius: 4px;
+   
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .buttonn{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+     font-family: 'Merienda', sans-serif;
+  }
+  
+ .buttonn:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 11px;
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  .buttonn:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .buttonn:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+
+-----
+
+
+.btnw {
+    border-radius: 4px;
+   
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 18px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .btnw{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+ .btnw:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 8px;
+    right: -10px;
+    transition: 0.5s;
+  }
+  
+  .btnw:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .btnw:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+  .flicker {
+    font-size: 4rem;
+    font-family: 'Merienda', sans-serif;
+    margin: 1rem auto;
+    color: #fffefe61;
+    background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+    background-size: 110px 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: flick 1.5s infinite;
+  }
+  @keyframes flick {
+    0% {
+      background-position: top left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+
+
+
+
+
+  .drop {
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 7px;
+    width: 190px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+    position: relative;
+  }
+  
+  .drop:before {
+    content: '▼';
+    position: absolute;
+    opacity: 0;
+    top: 1px;
+    right:  7px;
+    transition: 0.5s;
+    
+  }
+
+  
+  
+  .drop:hover {
+    padding-right: 18px;
+   
+    
+  }
+  
+  .drop:hover:before {
+    opacity: 1;
+    transform: translateY(9px); /* Pomera strelicu prema dole kada se hoveruje */
+    right: 10px;
+  }
+  
+
